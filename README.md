@@ -1,8 +1,10 @@
 # EmotionDiary
-React를 사용하여 일기장 프로젝트를 진해하였습니다. 일기 목록 페이지, 일기 수정 페이지, 일기 추가 페이지, 일기 상세 페이지로 구성되어있으며 
-react-router-dom의 BrowserRouter 통해 페이지 전환이 이뤄 지도록 하였고 변화되는 일기의 정보들은 useReducer를 사용하여 상태를 관리했다.
-이로 인해 상태들이 복잡해 졌을 때 useState보다 코드의 크기를 줄이고 가독성을 향상시켰다. 
-이러한 일기 정보들은 Context를 사용하여 여러 컴포넌트들에게 한번에 내려줌으로써 Props drilling를 해결하였고,
+React를 사용하여 일기장 프로젝트를 진해하였습니다.<br/>
+일기 목록 페이지, 일기 수정 페이지, 일기 추가 페이지, 일기 상세 페이지로 구성되어있으며<br/>
+react-router-dom의 BrowserRouter 통해 페이지 전환이 이뤄 지도록 하였고<br/> 
+변화되는 일기의 정보들은 useReducer를 사용하여 상태를 관리했다.<br/> 
+이로 인해 상태들이 복잡해 졌을 때 useState보다 코드의 크기를 줄이고 가독성을 향상시켰다.<br/> 
+이러한 일기 정보들은 Context를 사용하여 여러 컴포넌트들에게 한번에 내려줌으로써 Props drilling를 해결하였고,<br/> 
 이 외에도 useEffect, useCallback hooks를 사용하여 페이지 랜더링 최적화를 진행하였다.
 <br><br>
 RELEASE - https://emotion-diary-psi.vercel.app/
